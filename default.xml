@@ -105,7 +105,7 @@
   <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
-  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
+  <project path="external/icu4c" name="platform/external/icu4c" remote="android_linaro" revision="refs/heads/master" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" />
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
