@@ -12,9 +12,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="android_linaro"
-           fetch="git://android.git.linaro.org" />
-
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -27,7 +24,7 @@
   <project path="android" name="mzhou/arararagi_android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="platform/bionic" remote="android_linaro" revision="refs/heads/jb-mr1.1-dev" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
